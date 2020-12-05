@@ -1,0 +1,9 @@
+/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/bin/Debug/netstandard2.1/SharedLibrary.deps.json
+/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/bin/Debug/netstandard2.1/SharedLibrary.dll
+/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/bin/Debug/netstandard2.1/SharedLibrary.pdb
+/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/obj/Debug/netstandard2.1/SharedLibrary.AssemblyInfoInputs.cache
+/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/obj/Debug/netstandard2.1/SharedLibrary.AssemblyInfo.cs
+/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/obj/Debug/netstandard2.1/SharedLibrary.csproj.CoreCompileInputs.cache
+/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/obj/Debug/netstandard2.1/SharedLibrary.dll
+/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/obj/Debug/netstandard2.1/SharedLibrary.pdb
+/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/obj/Debug/netstandard2.1/SharedLibrary.csprojAssemblyReference.cache

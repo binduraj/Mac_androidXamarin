@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/binduraj/Projects/BasicAndroidApp/BasicAndroidApp/BasicAndroidApp.csproj": {}
+  },
+  "projects": {
+    "/Users/binduraj/Projects/BasicAndroidApp/BasicAndroidApp/BasicAndroidApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/binduraj/Projects/BasicAndroidApp/BasicAndroidApp/BasicAndroidApp.csproj",
+        "projectName": "BasicAndroidApp",
+        "projectPath": "/Users/binduraj/Projects/BasicAndroidApp/BasicAndroidApp/BasicAndroidApp.csproj",
+        "packagesPath": "/Users/binduraj/.nuget/packages/",
+        "outputPath": "/Users/binduraj/Projects/BasicAndroidApp/BasicAndroidApp/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/binduraj/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/SharedLibrary.csproj": {
+                "projectPath": "/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/SharedLibrary.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/SharedLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/SharedLibrary.csproj",
+        "projectName": "SharedLibrary",
+        "projectPath": "/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/SharedLibrary.csproj",
+        "packagesPath": "/Users/binduraj/.nuget/packages/",
+        "outputPath": "/Users/binduraj/Projects/BasicAndroidApp/SharedLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/binduraj/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
