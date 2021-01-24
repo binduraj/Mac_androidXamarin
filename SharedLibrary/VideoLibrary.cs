@@ -14,6 +14,7 @@ namespace SharedLibrary
 
         public void AddPlayList()
         {
+            //position 0
             playList.Add(new VideoLibrary()
             {
                 name = "My Songs",
@@ -21,6 +22,7 @@ namespace SharedLibrary
                 ImageUrl = "https://www.gstatic.com/webp/gallery3/4.png"
             });
 
+            //position 1
             playList.Add(new VideoLibrary()
             {
                 name = "My Tutorials",
@@ -28,10 +30,19 @@ namespace SharedLibrary
                 ImageUrl = "https://www.gstatic.com/webp/gallery3/5_webp_ll.png"
             });
 
+            //position 2
             playList.Add(new VideoLibrary()
             {
                 name = "My Dances",
                 description = "List of my Dances",
+                ImageUrl = "https://www.gstatic.com/webp/gallery3/2_webp_ll.png"
+            });
+
+           //position 3
+            playList.Add(new VideoLibrary()
+            {
+                name = "My Lessons",
+                description = "List of my Lessons",
                 ImageUrl = "https://www.gstatic.com/webp/gallery3/2_webp_ll.png"
             });
         }
